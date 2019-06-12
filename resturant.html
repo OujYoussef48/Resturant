@@ -1,0 +1,581 @@
+﻿<! DOCTYPE html>
+<html dir="rtl" lang="ar">
+	<head>
+		<meta charset="utf-8">
+		<title>resturant</title>
+		<style>
+			body{
+				padding:0;
+				margin:0;
+				background:#fff;
+                overflow-x: hidden
+					}
+			header{
+				background:url(C:/Users/hp/Desktop/Resturant/pictures/caf.jpg);
+                background-size: cover;
+				height:400px;
+				
+					}
+
+			header  p{
+				text-align:center;
+				font:50px verdana;
+				color: white;
+				
+					}
+			header span{
+				text-align:center;
+				font:20px verdana;
+				margin-top:-4px;
+				margin-right:500px;
+				color: white;
+					}
+			nav{
+				background-color:#f43664;
+				display:block;
+				padding:5px;
+				
+				
+					}	
+            nav a{
+					text-decoration:none;
+					color:#fff;
+					font:20px impact;
+					
+					}
+					a:hover{
+					color:#cdff0e;
+					
+					
+					}
+				li{
+					margin:10px;
+					display:inline;
+					
+					}
+				.logo {
+					float:left;
+					display:inline;
+					margin-top:-90px;
+					margin-left:10px;
+					
+					}
+                .cls {
+                    clear: both;
+                    }
+				.logo p {
+					color:#fff;
+					font:35px verdana;
+					
+					}
+				article{
+					height:700px;
+                    width: 100%;
+                    
+            }
+                article .atbaq{
+                    text-align: center;
+                    margin-left: 90px;
+                    margin-top: 20px;
+                    }
+                article .atbaq p{
+                    text-align: center;
+                    font-size: 40px
+                    }
+               article .atbaq span{
+                    text-align: center;
+                    font-size: 20px;
+                    justify-content: center;
+                    }
+                article .all{
+                    text-align: center;
+                    }
+				.dishs section{
+					height:220px;
+					width:220px;
+					display:inline-block;
+					background:#eee;
+					border-radius:20px;
+					margin-left:10px;
+					margin-top:20px;
+					}
+				.dishs section img{
+					width:190px;
+					height:120px;
+					background:#000;
+					margin-top:7px
+					
+					}
+				.dishs section .img span{
+					color:#fff;
+
+					}
+            .dishs section h2{
+					text-align:center;
+					
+					}
+            .dishs section button{
+					outline:0;
+					border:0;
+					background:#00f900;
+					margin-top:-10px;
+					color:#fff;
+					width:190px;
+					cursor:pointer;
+					height:30px;
+					font-size:20px;
+                    transition: .5s all
+					}
+            .dishs section button:active{
+                opacity:.3;
+            }
+            .more{
+                background: #ffa906;
+                border: 0;
+                outline: 0;
+                padding: 20px;
+                font-size: 20px;
+                color: #fff;
+                text-align: center;
+                transform: translateX(-980px);
+                margin-top: -80px;
+                cursor: pointer;
+                transition: .3s all;
+                width: 20%
+            }
+            .more:active{
+                opacity: .5;
+            }
+            .best .title p{
+                    text-align: center;
+                    font-size: 40px;
+                    }
+             .best .title span{
+                    text-align: center;
+                    font-size: 20px;
+                    display: block;
+                    justify-content: center;
+                    }
+             .best{
+                background: #eee;
+                
+            }
+            .best section{
+					height:220px;
+					width:220px;
+					display:inline-block;
+					background:#0087ff;
+					border-radius:20px;
+					margin-top:20px;
+                    margin-left: 20px;
+					}
+            .best section img{
+					width:190px;
+					height:120px;
+					background:#000;
+					margin-top:7px;
+                    border:1px solid #ddd;
+					
+					}
+            .best section h2{
+					color: #fff; 
+            }
+
+            .progresso{
+                width: 80%;
+                background-color: gray;
+                text-align: right;
+            }
+            .best section .progresso span{
+                width: 60%;
+                display: block;
+                background-color: #ffd545;
+                margin-top: -15px;
+                text-align: center;
+            }
+            .progresst{
+                width: 80%;
+                background-color: gray;
+                text-align: right;
+            }
+            .best section .progresst span{
+                width: 70%;
+                display: block;
+                background-color: #ff8a00;
+                margin-top: -15px;
+                text-align: center;
+            }
+            .progressth{
+                width: 80%;
+                background-color: gray;
+                text-align: right;
+            }
+            .best section .progressth span{
+                width: 80%;
+                display: block;
+                background-color: #ff2000ed;
+                margin-top: -15px;
+                text-align: center;
+            }
+            .progressf{
+                width: 80%;
+                background-color: gray;
+                text-align: right;
+            }
+            .best section .progressf span{
+                width: 90%;
+                display: block;
+                background-color: red;
+                margin-top: -15px;
+                text-align: center;
+            }
+            .best section span{
+					color: #fff;
+                    border-bottom-color: #ddd;
+                    margin-top: -16px;
+                    display: block;
+					}
+            .best .hajzlan{
+                color: #fff;
+                border: 0;
+                outline:0;
+                text-align: center;
+                background: #0058ff;
+                height: 60px;
+                width: 30%;
+                margin: 50 auto;
+                display: block;
+                cursor: pointer;
+                font-size: 20px;
+                transition: .5s all;
+                margin-top:80px;
+            }
+            .best .hajzlan:active{
+                opacity: .3;
+            }
+            .hajz {
+                height: 300px;
+            }
+            .hajz  p{
+                    text-align: center;
+                    font-size: 40px;
+                    }
+             .hajz span{
+                    text-align: center;
+                    font-size: 20px;
+                    display: block;
+                    justify-content: center;
+                    }
+             .hajz{
+                background: #fff;
+            }
+            .hajz .tasjilan{
+                color: #fff;
+                border: 0;
+                outline:0;
+                text-align: center;
+                background: #7000ff;
+                height: 60px;
+                width: 30%;
+                margin: 50 auto;
+                display: block;
+                cursor: pointer;
+                font-size: 20px;
+                transition: .5s all;
+                margin-top:80px;
+            }
+            .hajz .tasjilan:active{
+                opacity: .3;
+            }
+            .hajz a{
+                text-decoration: none;
+            }
+            #box{
+                visibility: hidden;
+                }
+	       form{
+                height: 400px;
+                width: 300px;
+                text-align: center;
+                margin: 50px auto;
+                margin-top: -250px;
+                background: #fff;
+            }
+            form p{
+                font: 20px  verdana;
+                color: #fff;
+                width: 90%;
+                display: inline;
+                padding: 10px;
+                margin: 10px;
+                background: #ff0068;
+                text-align: center;
+            }
+            form input{
+                outline: 0;
+                padding: 10px;
+                height: 45px;
+                width: 80%;
+                margin: 12px;
+                border-radius: 5px;
+                font-size: 18px
+            }
+            form input[type=text]{
+                height: 45px;
+                width: 40%;
+                font-size: 18px
+            }
+            form input[type=submit]{
+                height: 45px;
+                width: 40%;
+                border-radius: 20px;
+                background: #ff0068;
+                border: 0;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                transition: 2s all;
+
+            }
+            form input[type=submit]:hover{
+                opacity: .3;
+            }
+            footer{
+                background: #ddd;
+                padding: 20px;
+            }
+            footer span{
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                color: blueviolet;
+            }
+            footer .socialmedia{
+                float: left;
+                
+            }
+            footer .socialmedia a{
+                color: #211a1a;
+                text-align: center;
+                text-decoration: none;
+                font-size: 20px;
+                margin: 10px;
+            }
+            footer .socialmedia .fb{
+                color: #211a1a;
+                transition: 3s 5 all;
+            }
+            footer .socialmedia .fb:hover{
+                color: #126de2;
+            }
+            footer .socialmedia .Wh{
+                color: #211a1a;
+                transition: 3s 5 all;
+            }
+            footer .socialmedia .Wh:hover{
+                color: #29b32f;
+            }
+            footer .socialmedia .Yo{
+                color: #211a1a;
+                transition: 3s 5 all;
+            }
+            footer .socialmedia .Yo:hover{
+                color: #f00;
+            }
+            footer .socialmedia .Bl{
+                color: #211a1a;
+                transition: 3s 5 all;
+            }
+            footer .socialmedia .Bl:hover{
+                color: #FF5722;
+            }
+            
+				
+		</style>
+	</head>
+	<body>
+		<header>
+			<br><br><br><br>
+			<p><b>Resturant</b></p>
+			<span>افضل موقع لحجز الوجبات الغذائية</span>
+
+		</header>
+		<nav>
+			<ul>
+				<a href="#"><li>الرئيسية</li></a>
+				<a href="#"><li>الاطباق</li></a>
+				<a href="#"><li>الاكثر طلبا</li></a>
+				<a href="#"><li>الحجز</li></a>
+			</ul>
+			<div class="logo">
+				<a href="#"><p>Resturant</p></a>
+			</div>
+            
+		</nav>
+		<article class="dishs">
+            <div class="atbaq">
+                <p>اطباق</p>
+                <span>اطباق مغربية راقية يمنحها الموقع لكل الزوار لكل من يريد ان يتمتع بلذة الاطباق المغربية الاصيلة </span>
+            </div>
+            <div class="all">
+			<section class="one">
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/g.jpg">
+				
+				<h2>دجاج مشوي</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+						<section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/t.jpg">
+				<h2>طاجين بلبرقوق</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+						<section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/k.jpg">
+				<h2>كسكس مغربي</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+            <section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/l.jpg">
+				<h2>حريرة رمضان</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+				
+						<section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/b.jpg">
+					
+				<h2>بغرير</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+            <section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/ko.jpg">
+				<h2>كوكيز</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+			<section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/kaba.jpg">
+				<h2>كباب</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+			<section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/lh.jpg">
+				<h2>لحم مشوي</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+			<section class="one">
+				
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/ki.jpg">
+				<h2>كيكة بشكلاط</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+			<section class="one">
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/h.jpg">
+				<h2>حرشة</h2>
+				<button id="butt" onclick="hajz()">حجز</button>
+				</center>
+			</section>
+            </div>
+		</article>
+         <button class="more"> المزيد من الاطباق <span>&raquo;</span></button>
+        <article class="best">
+            <div class="title">
+                <br>
+            <p>الاكثر طلبا</p>
+            <span>هذه هي احصاءات عدد حجز هذه الاطباق والوجبات</span>
+            </div>
+            <div class="all">
+            <br><br>
+            <section class="one">
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/h.jpg">
+				<h2>حرشة</h2>
+                <div class="progresso"><p><span>60%</span></p></div>
+				<span>تم الحجز 10000000 مرة</span>
+				</center>
+			</section> 
+            <section class="one">
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/k.jpg">
+				<h2>كسكس مغربي</h2>
+                <div class="progresst"><p><span>70%</span></p></div>
+				<span>تم الحجز 10000000 مرة</span>
+				</center>
+			</section> 
+            <section class="one">
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/g.jpg">
+				<h2>دجاج مشوي</h2>
+                <div class="progressth"><p><span>80%</span></p></div>
+				<span>تم الحجز 10000000 مرة</span>
+				</center>
+			</section> 
+            <section class="one">
+				<center><img src="file:///C:/Users/hp/Desktop/Resturant/pictures/ki.jpg">
+				<h2>كيكة بشكلاط</h2>
+                <div class="progressf"><p><span>90%</span></p></div>
+				<span>تم الحجز 10000000 مرة</span>
+				</center>
+			</section> 
+            </div>
+            <button class="hajzlan">احجز الان</button>
+        </article>
+		<article class="hajz">
+            <p>الحجز</p>
+            <span>يمكنكم التسجيل في الموقع للتمكن من الحجز فيه </span>
+            <button class="tasjilan" id = "buttrans">التسجيل الان</button>
+	    	<div id = "box">
+        <form action="" method="post">
+            <br><br>
+            <p>Resturant</p>
+            <br><br><br>
+            <input type="text" placeholder="الاسم الاول">
+            <input type="text" placeholder="الاسم الثاني">
+            <br>
+            <input type="email" placeholder="البريد الاكتروني">
+            <br>
+            <input type="search" placeholder="الدولة">
+            <br>
+            <input type="submit" value ="تسجيل">
+        </form>
+	</div>
+        </article>
+        <footer>
+            <div class="socialmedia">
+                <b>
+                <a href="https://wwww.facebook.com/desginer4/" class="fb">facebook</a>
+                <a href="https://wwww.facebook.com/desginer4/" class="Wh">whatsapp</a>
+                <a href="https://wwww.facebook.com/desginer4/" class="Yo">Youtube</a>
+                <a href="https://wwww.facebook.com/desginer4/" class="Bl">blogger</a>
+                </b>
+            </div>
+            <p>جميع الحقوق محفوظة&copy;</p>
+           <b><span>تصميم : يوسف الحاج</span></b> 
+        </footer>
+	</body>
+	<script>
+		var box = document.getElementById('box');
+		var but = document.getElementById('buttrans');
+		buttrans.onclick = function{
+		 	box.style.visibility = "visible";
+					
+				}
+		function hajz(){
+           
+            alert("سجل اولا في الموقع لكي يتم الحجز")
+        
+        }
+        
+	</script>
+</html>
